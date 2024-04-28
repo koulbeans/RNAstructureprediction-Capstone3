@@ -1,0 +1,25 @@
+Keras Sequential Model
+(https://keras.io/guides/sequential_model/)
+
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, None, 50)          1350      
+                                                                 
+ dense_1 (Dense)             (None, None, 50)          2550      
+                                                                 
+ dense_2 (Dense)             (None, None, 2)           102       
+                                                                 
+=================================================================
+Total params: 4002 (15.63 KB)
+Trainable params: 4002 (15.63 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+
+
+
+Loss Function: MAE
+training: 0.2096
+validation: 0.2631
+test: 0.2204
